@@ -1,0 +1,67 @@
+#pane {
+  -fx-background-image: url("background.jpg");
+  -fx-background-size: cover; /* Optional: resize the image to fit the scene */
+}
+#test {
+    -fx-padding: 20px; /* Add some padding to the VBox */
+}
+#errorMessage {
+  -fx-font-size: 20px;
+  -fx-border-color: #ccc; /* Set border color */
+  -fx-border-radius: 5px; /* Rounded corners */
+  -fx-padding: 5px; /* Add some padding */
+  -fx-text-fill: white; 
+  -fx-background-color: #ff2c2c;
+}
+.text {
+    -fx-background-color: rgba(255, 255, 255, 0.8); /* Set background color for the text fields with some transparency */
+    -fx-border-color: #ccc; /* Set border color */
+    -fx-border-radius: 5px; /* Rounded corners */
+    -fx-padding: 5px; /* Add some padding */
+    -fx-font-size: 14px; /* Set font size */
+    -fx-pref-width: 250px; 
+}
+
+.text:focused {
+    -fx-background-color: white; /* Change background color when focused */
+}
+
+.text::placeholder {
+    -fx-text-fill: #999; /* Set placeholder text color */
+}
+
+.button {
+    -fx-background-color: #4CAF50; /* Green background */
+    -fx-text-fill: white; /* White text */
+    -fx-font-size: 14px; /* Set font size */
+    -fx-padding: 8px 16px; /* Add padding */
+    -fx-border-radius: 5px; /* Rounded corners */
+}
+
+.button:hover {
+    -fx-background-color: #45a049; /* Darker green background on hover */
+}
+.label {
+    -fx-font-size: 22px; /* Increase font size to 18px */
+    -fx-text-fill: #45a049; /* Change text color to green */
+}
+.switch-button {
+    -fx-background-color: #ccc; /* Default background color */
+    -fx-background-radius: 15px; /* Rounded corners */
+    -fx-padding: 5px 10px; /* Add padding */
+    -fx-text-fill: #333; /* Text color */
+    -fx-font-size: 14px; /* Font size */
+    -fx-border-width: 1px; /* Border width */
+    -fx-border-color: #999; /* Border color */
+}
+
+.switch-button:hover {
+    -fx-background-color: #ddd; /* Lighter background color on hover */
+}
+
+.switch-button.selected {
+    -fx-background-color: #4CAF50; /* Green background when selected */
+    -fx-text-fill: white; /* White text when selected */
+    -fx-border-color: #4CAF50; /* Green border color when selected */
+}
+

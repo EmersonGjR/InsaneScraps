@@ -1,0 +1,27 @@
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+
+<AnchorPane id="pane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml" fx:controller="com.scraps.app.controller.Controller" stylesheets="@style.css">
+
+    <VBox id="test" alignment="CENTER" spacing="10" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" AnchorPane.bottomAnchor="0">
+        <VBox alignment="CENTER" fx:id="errorBox" />
+
+        <HBox alignment="CENTER">
+            <Label  text="Nome:" />
+            <TextField fx:id="nameInput" styleClass="text" promptText="Escreva seu Nome" />
+        </HBox>
+
+        <HBox alignment="CENTER">
+            <Label  text="Valor:" />
+            <TextField fx:id="valueInput" styleClass="text" promptText="Escolhe a opção de comparação" />
+        </HBox>
+        <Button fx:id="switchButton"  text="Vela menor que" styleClass="switch-button" onAction="#onSelectButtonClick" />
+
+        <Button fx:id="submitButton" text="Confirmar" onAction="#onButtonClick" />
+    </VBox>
+
+</AnchorPane>

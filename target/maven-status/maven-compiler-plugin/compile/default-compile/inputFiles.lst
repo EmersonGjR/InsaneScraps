@@ -1,5 +1,5 @@
-/home/mersin/Desktop/Rafa/scraping/InsaneScraping/src/main/java/com/scraps/app/PopUp.java
-/home/mersin/Desktop/Rafa/scraping/InsaneScraping/src/main/java/com/scraps/app/TxtWriter.java
-/home/mersin/Desktop/Rafa/scraping/InsaneScraping/src/main/java/com/scraps/app/Logic.java
-/home/mersin/Desktop/Rafa/scraping/InsaneScraping/src/main/java/com/scraps/app/App.java
-/home/mersin/Desktop/Rafa/scraping/InsaneScraping/src/main/java/com/scraps/app/Getting.java
+/home/mersin/Desktop/Rafa/scraping/InsaneScraping/src/main/java/com/scraps/app/model/Getting.java
+/home/mersin/Desktop/Rafa/scraping/InsaneScraping/src/main/java/com/scraps/app/view/Graphics.java
+/home/mersin/Desktop/Rafa/scraping/InsaneScraping/src/main/java/com/scraps/app/controller/App.java
+/home/mersin/Desktop/Rafa/scraping/InsaneScraping/src/main/java/com/scraps/app/model/Logic.java
+/home/mersin/Desktop/Rafa/scraping/InsaneScraping/src/main/java/com/scraps/app/controller/Controller.java

@@ -1,5 +1,5 @@
-com/scraps/app/Getting.class
-com/scraps/app/PopUp.class
-com/scraps/app/Logic.class
-com/scraps/app/App.class
-com/scraps/app/TxtWriter.class
+com/scraps/app/controller/App.class
+com/scraps/app/model/Getting.class
+com/scraps/app/model/Logic.class
+com/scraps/app/controller/Controller.class
+com/scraps/app/view/Graphics.class

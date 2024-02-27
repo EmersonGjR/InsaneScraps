@@ -1,5 +1,7 @@
-com/scraps/app/controller/App.class
+com/scraps/app/controller/Start.class
 com/scraps/app/model/Getting.class
+com/scraps/app/controller/MonitorControll.class
 com/scraps/app/model/Logic.class
+com/scraps/app/controller/App.class
+com/scraps/app/controller/PopUpControll.class
 com/scraps/app/controller/Controller.class
-com/scraps/app/view/Graphics.class

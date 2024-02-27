@@ -1,0 +1,14 @@
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+
+<?import javafx.stage.Popup?>
+<AnchorPane fx:id="pane" prefHeight="800" prefWidth="600" xmlns:fx="http://javafx.com/fxml" fx:controller="com.scraps.app.controller.MonitorControll" stylesheets="@style.css">
+    <VBox alignment="TOP_RIGHT">
+        <Button fx:id="configurationButton" text="Configurações" onAction="#onButtonClickConfig"/>
+        <FlowPane vgap="10" fx:id="flowPane" />
+    </VBox>
+
+</AnchorPane>

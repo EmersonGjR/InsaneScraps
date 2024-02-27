@@ -1,4 +1,0 @@
-#test {
-  background-image: url('background.jpg');
-  -fx-background-size: cover; /* Optional: resize the image to fit the scene */
-}

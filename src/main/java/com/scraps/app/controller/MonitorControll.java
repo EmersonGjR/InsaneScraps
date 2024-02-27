@@ -54,46 +54,6 @@ public class MonitorControll implements Initializable {
     callGetValue();
   }
 
-  // private void popUpscene(String value) {
-  //
-  // Platform.runLater(() -> {
-  // System.out.println("entrou popUp");
-  // try {
-  // System.out.println("passou");
-  // URL path = new File("src/main/java/com/scraps/app/view/popup.fxml")
-  // .toURI()
-  // .toURL();
-  // popUpControll.valueShow = value;
-  //
-  // System.out.println("passou1");
-  // Parent page = (Parent) FXMLLoader.load(path);
-  //
-  // System.out.println("passou2");
-  // Stage newstage = new Stage();
-  // Popup popup = new Popup();
-  // System.out.println("passou3");
-  // Scene scene = new Scene(page);
-  // // popup.getContent().add(page);
-  // System.out.println("passou4");
-  // newstage.setScene(scene);
-  // // System.out.println(pane.getScene().getWindow());
-  // // popup.show(pane.getScene().getWindow());
-  //
-  // System.out.println("passou5");
-  // newstage.show();
-  //
-  // System.out.println("passou6");
-  //
-  // timer(10);
-  // System.out.println("passou7");
-  // // popup.hide();
-  // newstage.hide();
-  // } catch (IOException e) {
-  // e.printStackTrace();
-  // }
-  // });
-  // }
-  //
   private void popUpscene(String valueShow) {
 
     Platform.runLater(() -> {
@@ -165,6 +125,9 @@ public class MonitorControll implements Initializable {
         String[] returnedValue = new String[2];
         returnedValue = logic.compute();
         System.out.println("entrou != null");
+        // ret[0] nullret[1] 2.93
+        // entrou != null
+
         if (returnedValue[0].equals("true")) {
           // call the function to popup
           System.out.println("popUp");

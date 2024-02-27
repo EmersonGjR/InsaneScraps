@@ -68,6 +68,9 @@ public class Logic {
     }
 
     returnValue[1] = stringValue;
+    if (returnValue[0] == null) {
+      returnValue[0] = "i";
+    }
     System.out.println("ret[0] " + returnValue[0] + "ret[1] " + returnValue[1]);
     return returnValue;
   }
